@@ -1,6 +1,40 @@
 # Задание 1_1 (Простая сумма)
 
 На вход в stdin подается два целых числа, разделенные пробелом. Требуется вывести их сумму в stdout.
+<details>
+<summary>Памятка по Git</summary>
+
+1. Склонируйте репозиторий:
+
+   ```bash
+   git clone <URL>
+   cd <repository>
+   ```
+
+2. Создайте ветку для работы:
+
+   ```bash
+   git switch -c work
+   ```
+
+3. Выполните задание и закоммитьте изменения:
+
+   ```bash
+   git add .
+   git commit -m "Complete homework"
+   ```
+
+4. Отправьте ветку:
+
+   ```bash
+   git push -u origin work
+   ```
+
+5. Создайте Pull Request из `work` в `main`.
+
+Работу выполняйте в `work`. В `main` напрямую не коммитьте.
+
+</details>
 
 
 ## Важное уточнение
