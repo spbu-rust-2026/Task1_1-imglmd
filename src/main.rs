@@ -1,8 +1,9 @@
 use std::io;
+use std::io::Read;
 
 fn main() {
     let mut input = String::new();
-    io::stdin().read_line(&mut input).expect("error");
+    io::stdin().read_to_string(&mut input).expect("error");
 
     let mut iter = input.split_whitespace();
     let a: i64 = iter.next().unwrap().parse().unwrap();
